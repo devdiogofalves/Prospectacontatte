@@ -1,0 +1,8 @@
+name: prospecta
+
+services:
+  prospecta-edge-functions:
+    image: supabase/edge-runtime:v1.74.0
+    environment:
+      SUPABASE_URL: "http://rest:3000"
+      SUPABASE_PUBLIC_URL: "http://rest:3000"
